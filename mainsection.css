@@ -1,0 +1,50 @@
+html {
+  background-color: black;
+  color: #ffffff;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+.inspecionar {
+  border: 5px solid yellow;
+}
+
+.nav {
+  padding: 2rem 6rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 24rem;
+  height: 24rem;
+}
+
+.main-title {
+  font-size: 4rem;
+}
+
+.main-description {
+  margin: 4rem 0;
+}
+
+.button {
+  border-radius: 0.2rem;
+  background-color: blue;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
