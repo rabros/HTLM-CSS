@@ -1,0 +1,87 @@
+html {
+  background-color: #030b1f;
+  color: #ffffff;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+section {
+  padding: 5rem;
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+h2 {
+  font_size: 4rem;
+  font-weight: 700;
+}
+
+.inspecionar {
+  border: 5px solid yellow;
+}
+
+.itens-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  padding: 2rem 6rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 24rem;
+  height: 24rem;
+  margin-right: 10rem;
+}
+
+.main-title {
+  font-size: 4rem;
+}
+
+.main-description {
+  margin: 4rem 0;
+}
+
+.button {
+  border-radius: 0.2rem;
+  background-color: blue;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.about {
+  background-color: #162340;
+}
+
+.imgproject {
+  width: 24rem;
+  height: 24rem;
+  margin-right: 2.5rem;
+  border-radius: 0.6rem;
+}
+
+.sizeh3 {
+  font-size: 3rem;
+}
+
+.project {
+  margin: 4rem;
+}
