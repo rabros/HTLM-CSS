@@ -8,10 +8,15 @@ body {
   font-size: 1.6rem;
 }
 
+footer,
 section {
   padding: 5rem;
   max-width: 96rem;
   margin: 0 auto;
+}
+
+footer {
+  flex-direction: column;
 }
 
 h2 {
@@ -72,9 +77,15 @@ h2 {
 }
 
 .imgproject {
-  width: 24rem;
-  height: 24rem;
+  width: 20rem;
+  height: 20rem;
   margin-right: 2.5rem;
+  border-radius: 0.6rem;
+}
+
+.imglin {
+  width: 5rem;
+  height: 5rem;
   border-radius: 0.6rem;
 }
 
